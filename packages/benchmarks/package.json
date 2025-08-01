@@ -1,0 +1,23 @@
+{
+  "name": "@zap2d/benchmarks",
+  "version": "1.0.0",
+  "description": "Performance benchmarks for Zap2D",
+  "private": true,
+  "scripts": {
+    "run": "node benchmark.js"
+  },
+  "keywords": [
+    "benchmarks",
+    "performance",
+    "2d",
+    "rendering"
+  ],
+  "author": "Mrlgm <mr.lgmlovehxn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@zap2d/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  }
+}

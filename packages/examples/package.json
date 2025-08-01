@@ -1,0 +1,26 @@
+{
+  "name": "@zap2d/examples",
+  "version": "1.0.0",
+  "description": "Example projects showcasing usage of Zap2D",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "examples",
+    "2d",
+    "rendering"
+  ],
+  "author": "Mrlgm <mr.lgmlovehxn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zap2d": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Mrlgm/Zap2D.git",
+  "author": "Mrlgm <mr.lgmlovehxn@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@4.9.2",
+  "workspaces": [
+    "packages/*",
+    "tools"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -v -p run build",
+    "build:all": "node scripts/build-all.js",
+    "example": "cd packages/examples && yarn start",
+    "clean": "yarn workspaces foreach -v -p run clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

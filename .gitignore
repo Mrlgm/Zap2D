@@ -137,3 +137,19 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# C++ build artifacts
+*.o
+*.obj
+*.lib
+*.dll
+*.so
+*.dylib
+*.a
+*.exe
+
+# WebAssembly build artifacts
+packages/core/dist/
+
+# TypeScript build artifacts
+packages/typescript/dist/

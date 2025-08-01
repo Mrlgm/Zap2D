@@ -1,0 +1,29 @@
+{
+  "name": "@zap2d/sprite",
+  "version": "1.0.0",
+  "description": "Sprite and texture module for Zap2D",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/cpp",
+    "src"
+  ],
+  "scripts": {
+    "build:wasm": "node ../../tools/scripts/build-wasm.js",
+    "build:ts": "tsc --project tsconfig.json",
+    "build": "yarn build:wasm && yarn build:ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "sprite",
+    "texture",
+    "2d",
+    "rendering"
+  ],
+  "author": "Mrlgm <mr.lgmlovehxn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@zap2d/core": "^1.0.0"
+  }
+}

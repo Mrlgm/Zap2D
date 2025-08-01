@@ -1,0 +1,30 @@
+{
+  "name": "@zap2d/container",
+  "version": "1.0.0",
+  "description": "Container and scene graph module for Zap2D",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/cpp",
+    "src"
+  ],
+  "scripts": {
+    "build:wasm": "node ../../tools/scripts/build-wasm.js",
+    "build:ts": "tsc --project tsconfig.json",
+    "build": "yarn build:wasm && yarn build:ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "container",
+    "scene",
+    "graph",
+    "2d",
+    "rendering"
+  ],
+  "author": "Mrlgm <mr.lgmlovehxn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@zap2d/core": "^1.0.0"
+  }
+}

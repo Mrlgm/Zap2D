@@ -1,0 +1,20 @@
+{
+  "name": "@zap2d/tools",
+  "version": "1.0.0",
+  "description": "Build tools and utilities for Zap2D",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-ts.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "tools",
+    "build",
+    "utilities"
+  ],
+  "author": "Mrlgm <mr.lgmlovehxn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

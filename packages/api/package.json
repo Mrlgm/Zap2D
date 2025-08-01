@@ -1,0 +1,32 @@
+{
+  "name": "zap2d",
+  "version": "0.0.1",
+  "description": "Unified API entry point for Zap2D",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "api",
+    "entry",
+    "2d",
+    "rendering"
+  ],
+  "author": "Mrlgm <mr.lgmlovehxn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@zap2d/animation": "workspace:^",
+    "@zap2d/container": "workspace:^",
+    "@zap2d/core": "workspace:^",
+    "@zap2d/sprite": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
